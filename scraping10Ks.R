@@ -58,7 +58,7 @@ vec_debt <- vector(mode='raw', length = i)
 counter <- 1
 
 for(asset in i){
-  vec_debt[counter] <- ((vec_assets[counter] - vec_liabilities[counter])/vec_assets[counter])
+  vec_debt[counter] <- (vec_liabilities[counter])/(vec_assets[counter] - vec_liabilities[counter])
   counter <- counter + 1
 }
 
