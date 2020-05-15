@@ -1,0 +1,11 @@
+Sears -> SHLD -> 2018
+
+Toys R Us -> TOY -> 2017
+
+RadioShack -> RSHC -> 2014
+
+Gymboree -> GYMB -> 2016
+
+Claire’s -> CLE  -> 2018
+
+The lines above were used as input for the program, however, any ticker and year can be used assuming that the filing exists on the sec.gov webpage which the program draws from.
