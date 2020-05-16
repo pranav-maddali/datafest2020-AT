@@ -1,0 +1,96 @@
+(Dim i JCP_Debt
+
+i = cell(C14)
+j = cell(D14)
+
+For i = 1 To 6
+    Cells(i, 1).Value = i/j
+    Cells(j, 1).Value
+    
+    =i/j
+Next i )
+
+(Dim JCP_Time
+
+B14 =DATEVALUE("1-Feb-2019") & TIMEVALUE("12:00 AM")
+B15 =DATEVALUE("1-May-2019") & TIMEVALUE("12:00 AM")
+B16 =DATEVALUE("1-Aug-2019") & TIMEVALUE("12:00 AM")
+B17 =DATEVALUE("1-Nov-2019") & TIMEVALUE("12:00 AM")
+B18 =DATEVALUE("1-Feb-2020") & TIMEVALUE("12:00 AM")
+B19 =DATEVALUE("1-Apr-2020") & TIMEVALUE("12:00 AM")
+
+)
+
+Dim i MACYS_Debt
+
+i = cell(C14)
+j = cell(D14)
+
+For i = 1 To 6
+    Cells(i, 1).Value
+    Cells(j, 1).Value
+    
+    =i/j
+Next i
+
+(Dim MACYS_Time
+
+B14 =DATEVALUE("1-Feb-2019") & TIMEVALUE("12:00 AM")
+B15 =DATEVALUE("1-May-2019") & TIMEVALUE("12:00 AM")
+B16 =DATEVALUE("1-Aug-2019") & TIMEVALUE("12:00 AM")
+B17 =DATEVALUE("1-Nov-2019") & TIMEVALUE("12:00 AM")
+B18 =DATEVALUE("1-Feb-2020") & TIMEVALUE("12:00 AM")
+B19 =DATEVALUE("1-Apr-2020") & TIMEVALUE("12:00 AM")
+
+)
+
+
+
+Dim i NRDSTRM_Debt
+
+i = cell(C14)
+j = cell(D14)
+
+For i = 1 To 6
+    Cells(i, 1).Value = i/j
+    Cells(j, 1).Value
+    
+    =i/j
+Next i
+
+(Dim NRDSTRM_Time
+
+B14 =DATEVALUE("1-Feb-2019") & TIMEVALUE("12:00 AM")
+B15 =DATEVALUE("1-May-2019") & TIMEVALUE("12:00 AM")
+B16 =DATEVALUE("1-Aug-2019") & TIMEVALUE("12:00 AM")
+B17 =DATEVALUE("1-Nov-2019") & TIMEVALUE("12:00 AM")
+B18 =DATEVALUE("1-Feb-2020") & TIMEVALUE("12:00 AM")
+B19 =DATEVALUE("1-Apr-2020") & TIMEVALUE("12:00 AM")
+
+)
+
+
+
+
+Dim i GAP_Debt
+
+i = cell(C14)
+j = cell(D14)
+
+For i = 1 To 6
+    Cells(i, 1).Value = i/j
+    Cells(j, 1).Value
+    
+    =i/j
+Next i
+
+(Dim GAP_Time
+
+B14 =DATEVALUE("1-Feb-2019") & TIMEVALUE("12:00 AM")
+B15 =DATEVALUE("1-May-2019") & TIMEVALUE("12:00 AM")
+B16 =DATEVALUE("1-Aug-2019") & TIMEVALUE("12:00 AM")
+B17 =DATEVALUE("1-Nov-2019") & TIMEVALUE("12:00 AM")
+B18 =DATEVALUE("1-Feb-2020") & TIMEVALUE("12:00 AM")
+B19 =DATEVALUE("1-Apr-2020") & TIMEVALUE("12:00 AM")
+
+)
