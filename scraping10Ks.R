@@ -4,6 +4,7 @@ vec_assets <- numeric(10)
 vec_liabilities <- numeric(10)
 vec_names <- vector(, length = 10)
 i <- 1
+###program to scrape 10Ks based off of ticker and year given
 repeat{
   strname <- readline("Enter the ticker for the company or halt to terminate: ")
   if(tolower(strname) == "halt")
@@ -15,6 +16,7 @@ repeat{
     break
   gbs <- GetBalanceSheet(strname, yrBR)
   counter_a <- 0
+  ###store total assets
   for(row in 1:nrow(gbs)){
     if(gbs[row,1] == "Assets, Current"){
       amount <- gbs[row,3]
@@ -26,6 +28,7 @@ repeat{
     }
   }
   counter_l <- 0
+  ###store total liabilities
   for(row in 1:nrow(gbs)){
     if(gbs[row,1] == "Liabilities, Current"){
       amount <- gbs[row,3]
@@ -37,6 +40,7 @@ repeat{
     }
   }
   i <- i + 1
+  ###continuous resizing of vectors
   if(length(vec_names) <= i){
     vec_names <- c(vec_names, numeric(10))
     vec_assets <- c(vec_assets, numeric(10))
@@ -58,10 +62,9 @@ vec_debt <- vector(mode='raw', length = i)
 counter <- 1
 
 for(asset in i){
-  vec_debt[counter] <- (vec_liabilities[counter])/(vec_assets[counter] - vec_liabilities[counter])
+  vec_debt[counter] <- (vec_assets[counter])/(vec_liabilities[counter])
   counter <- counter + 1
 }
-
 
 ###creating a data frame to present data of companies
 df <- data.frame(
@@ -71,4 +74,3 @@ df <- data.frame(
   df_debt = vec_debt,
   stringsAsFactors = FALSE,
 )
-
